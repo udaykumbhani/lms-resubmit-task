@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Burb</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+    $('.icon').click(function() {
+        $('body').toggleClass('menu-show');
+    });
+  });
+  </script>
+</head>
+
+
+
+<body>
+
+  <!-- header start -->
+  <header class="header">
+    <div class="container">
+      <div class="header-part">
+        <div class="logo-part">
+          <a href="index.html" class="logo-img">
+            <img src="./images/logo.png.png" alt="logo_image" class="logo" />
+          </a>
+        </div> 
+        <nav class="navbar">
+          <ul class="nav-item">
+            <li class="nav-list"><a href="#product" class="nav-link">Product</a></li>
+            <li class="nav-list">
+              <a href="#about-us" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-list"><a href="#blog" class="nav-link">Blog</a></li>
+            <li class="nav-list">
+              <a href="#resources" class="nav-link">Resources</a>
+            </li>
+          </ul>
+          <div class="account">
+            <div class="ac">
+              <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="login">Log In</a>
+            </div>
+            <div class="btn">
+              <a href="#resources" class="button">Start my free trial</a>
+              <img src="./images/nav-svg.svg" class="btn-svg" alt="btn_svg" />
+            </div>
+          </div>
+        </nav>
+        <div class="menu-icon">
+          <i class="icon fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav class="menu">
+    <ul class="menu-item">
+      <li class="menu-list"><a href="#product" class="menu-link">Product</a></li>
+      <li class="menu-list">
+        <a href="#about-us" class="menu-link">About Us</a>
+      </li>
+      <li class="menu-list"><a href="#blog" class="menu-link">Blog</a></li>
+      <li class="menu-list">
+        <a href="#resources" class="menu-link">Resources</a>
+      </li>
+    </ul>
+    <div class="menu-account">
+      <div class="btn">
+        <a href="#resources" class="button">Start my free trial</a>
+        <img src="./images/nav-svg.svg" class="btn-svg" alt="btn_svg" />
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero section start -->
+
+  <section class="hero">
+    <!-- <div class="roundbg">
+            <img src="./images/roundimage.svg" alt="roundbg">
+        </div> -->
+    <div class="container">
+      <div class="responsive-order">
+        <div class="hero-row oneo">
+          <div class="hero-heading">
+            <h1 class="heading-first">How</h1>
+            <div class="textbox">
+              <img src="./images/herotext-one.png" alt="hero-text">
+            </div>
+            <h1 class="heading-second">Creators</h1>
+          </div>
+          <div class="headingbox">
+            <h1 class="heading-third">Grow</h1>
+            <div class="textboxgreen">
+              <img src="./images/herotext-two.png" alt="hero-text">
+            </div>
+          </div>
+          <div class="headingcommunity">
+            <h1 class="heading-fourth">Community.</h1>
+          </div>
+        </div>
+        <div class="hero-box twoo">
+          <div class="left">
+            <img src="./images/hero-img.png" alt="hero-image">
+          </div>
+          <div class="right-content">
+            <p class="hero-para">The only toolset you need to operate and grow your online course and membership
+              communities. </p>
+              <div class="btn">
+                <a href="#resources" class="button">Start my free trial</a>
+                <img src="./images/nav-svg.svg" class="btn-svg" alt="btn_svg" />
+              </div>
+          </div>
+          <div class="background">
+            <img src="./images/hero-bg.png" alt="images">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <marquee class="slider" direction="left" behavior="alternate">
+      <a href="#" class="link">membership communities</a>
+      <a href="#" class="link">scaling course</a>
+      <a href="#" class="link">learning management platforms</a>
+      <a href="#" class="link">social apps</a>
+      <a href="#" class="link">email marketing</a>
+      <a href="#" class="link">Coaching</a>
+      <a href="#" class="link">public social</a>
+      <a href="#" class="link">Community</a>
+      <a href="#" class="link">automation</a>
+      <a href="#" class="link">membership communities</a>
+      <a href="#" class="link">scaling course</a>
+      <a href="#" class="link">learning management platforms</a>
+      <a href="#" class="link">social apps</a>
+      <a href="#" class="link">email marketing</a>
+      <a href="#" class="link">Coaching</a>
+      <a href="#" class="link">public social</a>
+      <a href="#" class="link">Community</a>
+      <a href="#" class="link">automation</a>
+    </marquee>
+  </section>
+
+  <!-- introduction section start -->
+  <section class="introduction">
+    <div class="container">
+      <div class="introduction-row">
+        <div class="personimage">
+          <div class="personone">
+            <img src="./images/introfirst.png" alt="introduction-img">
+          </div>
+          <div class="persontwo">
+            <img src="./images/introsecond.png" alt="introduction-img">
+          </div>
+          <div class="personthird">
+            <img src="./images/introthird.png" alt="introduction-img">
+          </div>
+        </div>
+        <div class="introduction-content">
+          <p class="intro-para">Burb gives us the tools to make intelligent engagement decisions and get real time
+            analytics</p>
+          <div class="person-deatils">
+            <p class="persone-name">Jillian Benbow</p>
+            <p class="persone-post">Senior Community Manager, SPI</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- gallery-section start -->
+  <section class="gallery-section" id="product">
+    <div class="container">
+      <div class="gallery-row">
+        <h2 class="heading-span">
+          <span class="pink">Connect with your community</span>
+          <div class="boxe"><img src="./images/home.png" alt="" class="text-pic"></div>while we get busy
+          <div class="boxe"><img src="./images/drill.png" alt="" class="text-pic"></div>in the background.
+        </h2>
+      </div>
+    </div>
+    <!-- gallery-card section start -->
+    <section class="gallery-card">
+      <div class="container">
+        <div class="card-row">
+          <div class="col-u col-6">
+            <div class="cardbox spac">
+              <div class="card-content">
+                <h3 class="card-heading">Avoid that awkward radio silence.</h3>
+                <p class="card-para ">Start discussions in your channels, within groups, or with members directly in
+                  Slack, Circle, Discord, and email—either pre-scheduled or in real-time.</p>
+                <div class="card-btn">
+                  <a href="#" class="card-link">Learn More</a>
+                  <img src="./images/btn-elipes.png" alt="btn-elipes">
+                </div>
+              </div>
+              <div class="card-img add">
+                <img src="./images/cardone-first.png" alt="card-images" class="cardone-first">
+              </div>
+            </div>
+          </div>
+          <div class="col-u col-6">
+            <div class="cardbox">
+              <div class="card-content order">
+                <h3 class="h3-width">Let us get everyone settled.</h3>
+                <p class="card-para width">Automatically add members to community spaces or give them access to content
+                  via Thinkific, Teachable, and more—without lifting a finger.</p>
+                <div class="card-btn">
+                  <a href="#" class="card-link">Learn More</a>
+                  <img src="./images/btn-elipes.png" alt="btn-elipes">
+                </div>
+              </div>
+              <div class="card-img mb">
+                <img src="./images/card2.png" alt="card-images" class="cardone-first">
+              </div>
+            </div>
+          </div>
+          <div class="col-u col-12">
+            <div class="cardbox widthnone">
+              <div class="card-content pad">
+                <h3 class="sem">Take a peek around. </h3>
+                <p class="card-para ext-sp">Peruse insights from community activity, online courses, and private spaces to
+                  really understand how to get—and keep—your members engaged. </p>
+                <div class="card-btn">
+                  <a href="#" class="card-link">Learn More</a>
+                  <img src="./images/btn-elipes.png" alt="btn-elipes">
+                </div>
+              </div>
+              <div class="card-img">
+                <img src="./images/card3.png" alt="card-images" class="cardone-first">
+              </div>
+            </div>
+          </div>
+          <div class="col-u col-6">
+            <div class="cardbox spac">
+              <div class="card-content order">
+                <h3 class="h3-width">Gather everything you need under one roof. </h3>
+                <p class="card-para width">Access all your member deets in one central location with rich profiles across
+                  all apps.</p>
+                <div class="card-btn">
+                  <a href="#" class="card-link">Learn More</a>
+                  <img src="./images/btn-elipes.png" alt="btn-elipes">
+                </div>
+              </div>
+              <div class="card-img mb">
+                <img src="./images/card4.png" alt="card-images" class="cardone-first">
+              </div>
+            </div>
+          </div>
+         <div class="col-u col-6">
+          <div class="cardbox">
+            <div class="card-content">
+              <h3 class="card-heading">Declunkify.</h3>
+              <p class="card-para">Skip the messy workarounds. Sync everything for a unified view of member activity
+                across community platforms, learning management systems, and email marketing platforms.</p>
+              <div class="card-btn">
+                <a href="#" class="card-link">Learn More</a>
+                <img src="./images/btn-elipes.png" alt="btn-elipes">
+              </div>
+            </div>
+            <div class="card-img extra add">
+              <img src="./images/cardone-firsttwo.png" alt="card-images" class="cardone-first">
+            </div>
+          </div>
+         </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- customer section start -->
+  <section class="customer" id="blog">
+    <div class="container">
+      <div class="customer-main">
+        <div class="up">
+          <div class="first-box">
+            <h2 class="customer-heading">
+              <span class=" fontone">Our</span>
+              <span class=" fonttwo">customers</span>
+              <span class="h-img">I<img src="./images/customer-heart.png" alt="" class="customer-heart">ve us.</span>
+            </h2>
+          </div>
+
+          <div class="second-box box">
+            <div class="top">
+              <img src="./images/customerone.png" alt="customer-img" class="top-img">
+              <div class="cs-content">
+                <h4 class="cs-heading">Nivi Achanta</h4>
+                <div class="role">
+                  <p class="cs-para">Founder & CEO at Soapbox Project</p>
+                </div>
+              </div>
+            </div>
+            <div class="bottom">
+              <p class="c-p-text">Burb has been designed with true human connection in mind - it's helping me scale not
+                just community operations, but also thoughtful leadership, gratitude, and joy within the Soapbox Project
+                community.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="down">
+        <div class="box topmt">
+          <div class="top">
+            <img src="./images/customertwo.png" alt="customer-img" class="top-img">
+            <div class="cs-content">
+              <h4 class="cs-heading">Tatiana Figueiredo</h4>
+              <div class="role">
+                <p class="cs-para">Build A Community Business </p>
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <p class="c-p-text">A thoughtful tool by great, community-minded humans. Read Case Study</p>
+          </div>
+        </div>
+
+        <div class="box topmt-2">
+          <div class="top">
+            <img src="./images/customeerthree.png" alt="customer-img" class="top-img">
+            <div class="cs-content">
+              <h4 class="cs-heading">Jillian Benbow</h4>
+              <div class="role">
+                <p class="cs-para">Senior Community Manager </p>
+                <img src="./images/spi.png" alt="Founder">
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <p class="c-p-text">Burb gives us the tools to make intelligent engagement decisions and get real time
+              analytics.</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="top">
+            <img src="./images/customerfour.png" alt="customer-img" class="top-img">
+            <div class="cs-content">
+              <h4 class="cs-heading">Bryony Cole</h4>
+              <div class="role">
+                <p class="cs-para">Founder</p>
+                <img src="./images/sextech.png" alt="Founder">
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <p class="c-p-text">Burb allowed me to serve 50 people at once instead of 12.Read Case Study</p>
+          </div>
+        </div>
+
+        <div class="box topmb">
+          <div class="top">
+            <img src="./images/customerfive.png" alt="customer-img" class="top-img">
+            <div class="cs-content">
+              <h4 class="cs-heading">Carrie Melissa Jones</h4>
+              <div class="role">
+                <p class="cs-para">Entrepreneur</p>
+                <img src="./images/cmj.png" alt="founder">
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <p class="c-p-text">Burb helps me build deeper relationships with my community members, and their team is
+              INCREDIBLE! </p>
+          </div>
+        </div>
+
+        <div class="box marginnone">
+          <div class="top">
+            <img src="./images/customersix.png" alt="customer-img" class="top-img">
+            <div class="cs-content">
+              <h4 class="cs-heading">Bryony Cole</h4>
+              <div class="role">
+                <p class="cs-para">Founder</p>
+                <img src="./images/sextech.png" alt="founder">
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <p class="c-p-text">Suddenly I had more time, more revenue, and more people to serve.Read Case Study</p>
+          </div>
+        </div>
+
+        <div class="box topmb-2">
+          <div class="top">
+            <img src="./images/customerseven.png" alt="customer-img" class="top-img">
+            <div class="cs-content">
+              <h4 class="cs-heading">Tatiana Figueiredo</h4>
+              <div class="role">
+                <p class="cs-para">Build A Community Business</p>
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <p class="c-p-text">There's a way to approach automations in a human way and Burb helps you do that. Read
+              Case Study</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <marquee class="slider c-marquee" direction="left" behavior="alternate">
+      <a href="#" class="marquee-link">membership communities</a>
+      <a href="#" class="marquee-link">scaling course</a>
+      <a href="#" class="marquee-link">learning management platforms</a>
+      <a href="#" class="marquee-link">social apps</a>
+      <a href="#" class="marquee-link">email marketing</a>
+      <a href="#" class="marquee-link">Coaching</a>
+      <a href="#" class="marquee-link">public social</a>
+      <a href="#" class="marquee-link">Community</a>
+      <a href="#" class="marquee-link">automation</a>
+      <a href="#" class="marquee-link">membership communities</a>
+      <a href="#" class="marquee-link">scaling course</a>
+      <a href="#" class="marquee-link">learning management platforms</a>
+      <a href="#" class="marquee-link">social apps</a>
+      <a href="#" class="marquee-link">email marketing</a>
+      <a href="#" class="marquee-link">Coaching</a>
+      <a href="#" class="marquee-link">public social</a>
+      <a href="#" class="marquee-link">Community</a>
+      <a href="#" class="marquee-link">automation</a>
+    </marquee>
+  </section>
+
+  <!-- intergration section start -->
+  <section class="integration" id="resources">
+    <div class="container">
+      <div class="integration-row">
+        <div class="inter-top">
+          <h2 class="inter-heading">Integrations? <span class="inter-head">we've got'em</span></h2>
+          <p class="inter-para">Don’t worry, we play nice with the tools you’re already using.</p>
+        </div>
+
+        <div class="inter-bottom">
+          <div class="inter-card">
+            <div class="img-int">
+              <img src="./images/interf_irst.png" alt="img" class="inter-logo">
+            </div>
+            <div class="inter-down">
+              <h4 class="inter-head-text">Slack</h4>
+              <p class="inter-para-text">Community Platform</p>
+            </div>
+          </div>
+
+          <div class="inter-card ">
+            <div class="img-int second">
+              <img src="./images/inter_second.png" alt="img" class="inter-logo">
+            </div>
+            <div class="inter-down">
+              <h4 class="inter-head-text">Discord</h4>
+              <p class="inter-para-text">Community Platform</p>
+            </div>
+          </div>
+
+          <div class="inter-card">
+            <div class="img-int third">
+              <img src="./images/inter_third.png" alt="img" class="inter-logo">
+            </div>
+            <div class="inter-down">
+              <h4 class="inter-head-text">Google Workspace</h4>
+              <p class="inter-para-text">Productivity and Communication</p>
+            </div>
+          </div>
+
+          <div class="inter-card">
+            <div class="img-int foure">
+              <img src="./images/inter_four.png" alt="img" class="inter-logo">
+            </div>
+            <div class="inter-down">
+              <h4 class="inter-head-text">Circle</h4>
+              <p class="inter-para-text">Community Platform</p>
+            </div>
+          </div>
+
+          <div class="inter-card">
+            <div class="img-int five">
+              <img src="./images/inter_five.png" alt="img" class="inter-logo">
+            </div>
+            <div class="inter-down">
+              <h4 class="inter-head-text">Thinkific</h4>
+              <p class="inter-para-text">Learning Managment System</p>
+            </div>
+          </div>
+
+          <div class="inter-card">
+            <div class="img-int six">
+              <img src="./images/inter_six.png" alt="img" class="inter-logo">
+            </div>
+            <div class="inter-down">
+              <h4 class="inter-head-text">Teachable </h4>
+              <p class="inter-para-text">Learning Managment System</p>
+            </div>
+          </div>
+
+          <div class="inter-card">
+            <div class="img-int seven">
+              <img src="./images/inter_seven.png" alt="img" class="inter-logo">
+            </div>
+            <div class="inter-down">
+              <h4 class="inter-head-text">ConvertKit </h4>
+              <p class="inter-para-text">Email Marketing</p>
+            </div>
+          </div>
+
+          <div class="inter-card">
+            <div class="img-int eight">
+              <img src="./images/inter_eight.png" alt="img" class="inter-logo">
+            </div>
+            <div class="inter-down">
+              <h4 class="inter-head-text">Twitter </h4>
+              <p class="inter-para-text">Social Media Platform</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- how-it-works section start -->
+
+  <section class="how-it-works">
+    <div class="container">
+      <div class="main-row">
+        <div class="howitwork-top">
+            <h2 class="how-work-heading">Here’s how
+              <span class="how-work-green">it works</span>
+              <span class="crain-part">              
+                <img src="./images/crain.png" alt="crain-image">
+              </span>
+            </h2>
+            <p class="how-work-para">You’re busy, so we’ll make this easy.</p>
+        </div>
+        <div class="how-work-bottom">
+          <div class="how-work-card">
+            <div class="card-first-part">
+              <img src="./images/worksfirst.png" alt="how-works-image">
+            </div>
+            <div class="card-second-part">
+              <h4 class="card-head">Step 1</h4>
+              <p class="card-paragra">Connect your social, community, marketing, and online course platforms. </p>
+            </div>
+          </div>
+
+          <div class="how-work-card">
+            <div class="card-first-part">
+              <img src="./images/worksecond.png" alt="how-works-image">
+            </div>
+            <div class="card-second-part">
+              <h4 class="card-head">Step 2</h4>
+              <p class="card-paragra">Understand the full range of your members' journeys, engagement, and activities. </p>
+            </div>
+          </div>
+
+          <div class="how-work-card">
+            <div class="card-first-part">
+              <img src="./images/workthird.png" alt="how-works-image">
+            </div>
+            <div class="card-second-part">
+              <h4 class="card-head">Step 3</h4>
+              <p class="card-paragra">Create workflows, schedule messages, and track the success of your community-building strategies.  </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer section start -->
+  <footer class="footer" id="about-us">
+    
+    <div class="container">
+      <div class="footer-row">
+        <div class="footer-top">
+          <div class="footer-up">
+            <div class="footer-left">
+              <h2 class="left-head">Join us in the <span class="footer-pink">‘burbs</span> </h2>
+            </div>
+            <div class="footer-right">
+              <div class="footer-para">We’ll manage the mundane so you have the space (and brainpower) to create an experience your community can't get enough of.</div>
+              <div class="btn ft-mb">
+                <a href="#" class="button">Start my free trial</a>
+                <img src="./images/nav-svg.svg" class="btn-svg" alt="btn_svg" />
+              </div>
+              </div>
+            </div>
+            <div class="footer-down">
+              <img src="./images/footer-image.png" alt="footer-image">
+            </div>
+          </div>
+          <div class="footer-botoom">
+            <div class="f-left">
+              <div class="f-colsix">
+                <div class="col col-mr">
+                  <div class="f-logo">
+                    <a href="index.html" class="f-logo-link">Company</a>
+                  </div>
+                  <div class="f-navigation">
+                    <a href="#product" class="f-nav-link">Product</a>
+                    <a href="#about-us" class="f-nav-link">About Us</a>
+                    <a href="#resources" class="f-nav-link">Pricing</a>
+                    <a href="#blog" class="f-nav-link">Blog</a>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="f-sociyal">
+                    <p class="sociyal-pera">Socials</p>
+                  </div>
+                  <div class="sociyal-icon">
+                    <div class="twitter">
+                      <a href="https://twitter.com/i/flow/login" target="_blank" class="sociyal-link-first"><img src="./images/twitter-icon.png" alt="twitter"></a>
+                    </div>
+                    <div class="linkdin">
+                      <a href="https://www.linkedin.com/login" target="_blank" class="sociyal-link-second"><img src="./images/linkdin-icon.png" alt="linkdin"></a>
+                    </div>
+                    <div class="facebook">
+                      <a href="https://www.facebook.com/" target="_blank" class="sociyal-link-third"><img src="./images/fb-icon.png" alt="facebook"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="f-right">
+              <div class="f-colthree">
+                <div class="contact-us">
+                  <p class="contact contact-link">Contact</p>
+                  <a href="mailto:support@burb.team" class="contact-link mail-link">support@burb.team</a>
+                  <a href="tel:(414) 999-1112" class="contact-link contact-number">(414) 999-1112</a>
+                  <a href="#" class="contact-link adress">400 Bryant Street 45 San Francisco, CA 94408</a>
+                </div>
+              </div>
+            </div>      
+          </div>
+        </div>
+        
+      </div>
+    <div class="footer-pravacy">
+      <div class="container">
+        <div class="pravacy-part">
+          <div class="p-left">
+            <p class="p-link copy">© 2021 Burb Inc. Copyrights</p>
+            <a href="#" class="p-link term">Terms of Services</a>
+            <a href="#" class="p-link policy">Privacy Policy</a>
+          </div>
+          <div class="p-right">
+            <a href="#" class="crafted">Crafted with 🤍 <span></span> by <span class="underline">CollabWest</span> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
